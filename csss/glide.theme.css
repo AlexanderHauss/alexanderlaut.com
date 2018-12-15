@@ -1,0 +1,76 @@
+.glide__arrows {
+  position: absolute;
+  display:none;
+}
+
+
+.glide--carousel .glide__arrows {
+	display:block !important;
+}
+
+.glide--horizontal .glide__arrows {
+  top: 100%;
+    width: 165px;
+    margin-left: 0;
+    right: 0;
+    display:flex !important;
+    align-items:center;
+        justify-content: space-between;
+}
+
+
+.glide__counter {
+	    margin: 0;
+    font-size: 14px;
+    letter-spacing: 4px;
+}
+
+.glide--vertical .glide__arrows {
+  left: 50%;
+  height: 88%;
+  margin-top: 6%;
+}
+.glide__arrow {
+  position: absolute;
+  z-index: 2;
+  color: white;
+  text-transform: uppercase;
+  font: 11px Arial, sans-serif;
+  padding: 9px 12px;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+  opacity: 1;
+}
+.glide__arrow.disabled {
+  opacity: 0.33;
+}
+.glide__arrow:focus {
+  outline: none;
+}
+.glide__arrow:hover {
+  border-color: white;
+}
+.glide--horizontal .glide__arrow {
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.glide--horizontal .glide__arrow.prev {
+  left: 0;
+}
+.glide--horizontal .glide__arrow.next {
+  right: 0;
+}
+.glide--vertical .glide__arrow {
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.glide--vertical .glide__arrow.prev {
+  top: 0;
+}
+.glide--vertical .glide__arrow.next {
+  bottom: 0;
+}
+
+
+

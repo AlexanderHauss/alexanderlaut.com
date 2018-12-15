@@ -1,0 +1,133 @@
+.gldp-flatwhite {
+    position: absolute;
+    font-family: helvetica;
+    box-shadow: 0 0 3px #CCC
+}
+
+.gldp-flatwhite .core {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: relative;
+    float: left;
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat Alternates;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    color: #222;
+    background: #fff
+}
+
+.gldp-flatwhite .border {
+    border-style: solid;
+    border-width: 0;
+    border-color: #fff
+}
+
+.gldp-flatwhite .monyear,
+.gldp-flatwhite .monyear select {
+    color: #333;
+    font-size: 15px !important;
+    text-transform: uppercase
+}
+
+.gldp-flatwhite .monyear select {
+    margin-top: -3px;
+    border: none
+}
+
+.gldp-flatwhite .monyear.title {
+    font-size: 18px !important;
+    font-family: Cinzel Decorative;
+    letter-spacing: 1px
+}
+
+.gldp-flatwhite .monyear span {
+    margin: 0 5px
+}
+
+.gldp-flatwhite .next-arrow,
+.gldp-flatwhite .prev-arrow {
+    color: #999;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, .75)
+}
+
+.gldp-flatwhite .next-arrow:active,
+.gldp-flatwhite .prev-arrow:active {
+    color: #000
+}
+
+.gldp-flatwhite .next-arrow-off,
+.gldp-flatwhite .prev-arrow-off {
+    color: #000;
+    opacity: .15
+}
+
+.gldp-flatwhite .dow {
+    color: #999;
+    cursor: default !important;
+    font-family: Montserrat Alternates;
+    font-size: 15px;
+    letter-spacing: 1.5px
+}
+
+.gldp-flatwhite .fri,
+.gldp-flatwhite .mon,
+.gldp-flatwhite .sat,
+.gldp-flatwhite .sun,
+.gldp-flatwhite .thu,
+.gldp-flatwhite .tue,
+.gldp-flatwhite .wed {
+    font-size: 16px;
+    color: #5E5E5E;
+    letter-spacing: 1px
+}
+
+.gldp-flatwhite .sat,
+.gldp-flatwhite .sun {
+    font-family: Montserrat Alternates;
+    font-weight: 700
+}
+
+.gldp-flatwhite .outday {
+    color: #aaa !important
+}
+
+.gldp-flatwhite .fri:hover,
+.gldp-flatwhite .mon:hover,
+.gldp-flatwhite .sat:hover,
+.gldp-flatwhite .sun:hover,
+.gldp-flatwhite .thu:hover,
+.gldp-flatwhite .tue:hover,
+.gldp-flatwhite .wed:hover {
+    background: #eee
+}
+
+.gldp-flatwhite .noday {
+    color: #bbb;
+    font-weight: 400;
+    cursor: wait !important;
+    background: #ddd;
+    font-family: Montserrat Alternates;
+    font-size: 14px
+}
+
+.gldp-flatwhite .selected {
+    color: #FFF;
+    border-color: #ccc;
+    background: #999
+}
+
+.gldp-flatwhite .today {
+    color: #5E5E5E;
+    background: #eee
+}
+
+.gldp-flatwhite .special {
+    color: #fff;
+    font-weight: 700;
+    border-color: #444;
+    background: #666
+}
